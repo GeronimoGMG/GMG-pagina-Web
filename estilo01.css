@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    top: 0px;
+}
+ol, ul {
+    list-style: none;
+    margin-left: 186px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.contenido {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/arthur-mazi-a8CxRWIu8yw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+    background-size: cover;
+    position: static;
+    z-index: 1;
+}
+.balazo {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    right: -41%;
+}
+.balazo-02 {
+    width: 35%;
+    position: relative;
+    top: 201px;
+    right: -5%;
+}
+.balazo-03 {
+    width: 35%;
+    position: relative;
+    top: 30%;
+    right: -5%;
+}
+.balazo-04 {
+    width: 35%;
+    position: relative;
+    top: 148px;
+    right: -62%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 15px;
+    position: absolute;
+    top: -70px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    top: 0px;
+    position: static;
+    background-color: rgba(35,35,35,1.00);
+}
+
+.textos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+.te {
+}
+.logo {
+    width: 90px;
+    height: 90px;
+    background-image: url(img/gmg%20logo%20trans.2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.GMG {
+    color: rgba(247,247,247,1.00);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.85);
+    position: fixed;
+    z-index: 10;
+}
+footer {
+    padding: 32px;
+    color: rgba(231,231,231,1.00);
+    width: 100%;
+}
+footer h1 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+footer ul {
+    margin-top: 32px;
+}
+footer li {
+    height: 40px;
+    font-weight: 500;
+    font-style: 16px;
+    padding-right: 0px;
+    margin-left: -185px;
+}
+.col-01 {
+    width: 30%;
+    float: left;
+}
+.col-02 {
+    width: 30%;
+    float: left;
+    margin-right: 46px;
+}
+.redes {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    margin-top: 32px;
+    display: inline-block;
+    margin-right: 32px;
+}
+
+
+
+
+
+
+.col-01 {
+    width: 30%;
+}
+.contenido-02 {
+    z-index: 2;
+    background-image: url(img/nick-sokolov-5nViCpP2L6w-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 51%;
+
+}
+.contenido-03 {
+    z-index: 2;
+    background-image: url(img/closeup-of-the-hand-of-man-using-keypad-to-arm-his-home-alarm-system.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 38%;
+
+}
+.contenido-04 {
+    z-index: 2;
+    background-image: url(img/scanning-finger-on-coronavirus-contaminated-fingerprint-access-control.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 29% -20%;
+
+}
+header label {
+    display: none;
+}
+.menu {
+    position: absolute;
+    background-color: rgba(0,0,0,0.00);
+    width: 90%;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu li {
+    color: rgba(229,229,229,1.00);
+    font-weight: 500;
+    padding-left: 25px;
+    padding-top: 38px;
+    padding-right: 9px;
+}
+.menu li a {
+    display: block;
+}
+.menu li a {
+    color: rgba(235,235,235,1.00);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#menu {
+    display: none;
+}
+.menu li a:hover {
+    color: rgba(239,133,31,1.00);
+}
+footer li a {
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+footer {
+    width: 100%;
+    height: 100vh;
+}
+footer li {
+    margin-left: 0px;
+}
+
+.col-01 {
+    width: 100%;
+    float: none;
+}
+.col-02 {
+    float: none;
+    width: 100%;
+}
+.textos {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+}
+.col-01 {
+    margin-top: 45%;
+}
+.balazo {
+    width: 80%;
+    left: 20%;
+    top: 38%;
+    position: relative;
+}
+.contenido {
+}
+.contenido-02 {
+}
+.contenido-03 {
+    background-position: 36% 0%;
+}
+.contenido-04 {
+}
+
+
+
+
+.balazo-02 {
+    width: 80%;
+}
+.balazo-03 {
+    width: 80%;
+}
+.balazo-04 {
+    width: 80%;
+    left: 23%;
+    position: relative;
+}
+h2 {
+
+
+
+}
+header {
+    height: 80px;
+    width: 100%;
+}
+h1 {
+}
+footer h1 {
+    font-size: 18px;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+}
+.GMG {
+    font-size: 56px;
+    position: absolute;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: block;
+    left: 39%;
+    top: 24px;
+}
+#menu {
+    left: 0px;
+
+
+
+}
+#menul {
+
+}
+
+header label {
+    left: 12px;
+    position: relative;
+    top: 21px;
+    cursor: pointer;
+    display: block;
+
+
+}
+.menu {
+    color: rgba(221,221,221,1.00);
+    position: absolute;
+    width: 70%;
+    background-color: rgba(0,17,30,1.00);
+    margin-top: 44px;
+    margin-left: -100%;
+    transition: all 0.5s;
+}
+#menu:checked~ .menu {
+    margin-left: 0px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+}
+.menu li {
+    border-top: 2px solid rgba(239,239,239,0.82);
+    height: 50px;
+    padding-left: 10px;
+}
+.menu li a {
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.menu li a:hover {
+    color: rgba(236,120,36,1.00);
+}
+ol, ul {
+    margin-left: 0px;
+}
+label {
+
+}
+body p {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
