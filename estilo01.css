@@ -290,7 +290,8 @@ footer li a {
         padding-top: 0px;
         display: block;
         left: 39%;
-        top: 24px;
+        text-align: center;
+        top: 10px;
     }
     #menu {
         left: 0px;
